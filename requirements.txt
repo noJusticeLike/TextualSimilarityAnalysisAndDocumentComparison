@@ -1,0 +1,25 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.32
+
+# Data processing
+numpy==2.0.1
+pandas==2.2.2
+
+# NLP / embeddings (for plagiarism detection)
+sentence-transformers==3.0.1
+scikit-learn==1.5.1
+
+# PDF processing
+PyMuPDF==1.24.9
+pdfminer.six==20231228
+
+# Utility
+python-dotenv==1.0.1
+tqdm==4.66.5
+
+# Optional (if you use logging / debugging)
+loguru==0.7.2
