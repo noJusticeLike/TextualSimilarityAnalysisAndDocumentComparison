@@ -18,3 +18,8 @@ build/
 # OS
 .DS_Store
 
+
+backend/example_pdfs/
+backend/similarity_check_pdfs/
+backend/temp/
+

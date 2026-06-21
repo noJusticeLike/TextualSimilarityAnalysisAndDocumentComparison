@@ -53,7 +53,7 @@ To check similarity for a specific student document:
 Replace <student_surname> with the actual surname of the student.
 
 ### 5. Start backend server
-`uvicorn app.main:app --reload`
+`uvicorn app.main:app --reload --port 8001`
 
 The backend will be available at:
 
